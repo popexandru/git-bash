@@ -5,6 +5,14 @@ git bash commands
 ```shell
 git --version
 ```
+
+### init:
+
+init with a empty dir:
+```shell
+git init
+```
+
 ### config:
 
 Global config (just once):
@@ -74,10 +82,30 @@ git log --pretty="%h %ad | [%an] : %s" --date=short
 
 ### checkout:
 
-Checkout allow return back to a specific commit.
 ```shell
 git checkout [shorthash|hash]
 ```
 ```shell
 git checkout master
+```
+```shell
+git checkout "file-name"
+```
+
+### reset:
+
+```shell
+git reset HEAD "file-name"
+```
+```shell
+git reset [shorthash|hash]
+```
+
+### clean:
+
+```shell
+git clean -n
+```
+```shell
+git clean -f
 ```
