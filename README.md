@@ -41,9 +41,43 @@ Commit:
 git commit -m "Commit comment"
 ```
 
-### status
+### status:
 
 ```shell
 git status
 ```
 
+### log:
+
+```shell
+git log
+```
+exit from git log preview CTRL+Z.
+
+```shell
+git log --pretty=oneline
+```
+```shell
+git log --pretty=oneline --max-count=3
+```
+```shell
+git log --pretty=oneline --all
+```
+```shell
+git log --pretty=oneline --author="your-name"
+```
+
+Log with custom format:
+```shell
+git log --pretty="%h %ad | [%an] : %s" --date=short
+```
+
+### checkout:
+
+Checkout allow return back to a specific commit.
+```shell
+git checkout [shorthash|hash]
+```
+```shell
+git checkout master
+```
