@@ -109,3 +109,60 @@ git clean -n
 ```shell
 git clean -f
 ```
+```shell
+git clean -fd
+```
+
+### revert:
+
+```shell
+git revert HEAD --no-edit
+```
+```shell
+git revert [shorthash|hash] --no-edit
+```
+```shell
+git revert --continue
+```
+```shell
+git revert --abort
+```
+
+### branch:
+
+```shell
+git branch [-a]
+```
+```shell
+git checkout -b new-branch-name
+```
+```shell
+git checkout branch-name
+```
+```shell
+git merge branch-name
+```
+
+### rebase:
+
+```shell
+git rebase branch-name
+```
+
+### clone:
+
+```shell
+git clone https://github.com/popexandru/git-bash.git
+```
+```shell
+git clone git@github.com:popexandru/git-bash.git
+```
+
+### origin & push:
+
+```shell
+git remote add origin https://github.com/popexandru/git-bash.git
+```
+```shell
+git push -u origin master
+```
