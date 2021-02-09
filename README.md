@@ -86,7 +86,7 @@ git log --pretty="%h %ad | [%an] : %s" --date=short
 git checkout [shorthash|hash]
 ```
 ```shell
-git checkout master
+git checkout main
 ```
 ```shell
 git checkout "file-name"
@@ -164,5 +164,5 @@ git clone git@github.com:popexandru/git-bash.git
 git remote add origin https://github.com/popexandru/git-bash.git
 ```
 ```shell
-git push -u origin master
+git push -u origin main
 ```
