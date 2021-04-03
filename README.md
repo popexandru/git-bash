@@ -28,7 +28,7 @@ Local config (for each project):
 git config user.name "your-name"
 ```
 ```shell
-git config user.name "your-mail"
+git config user.email "your-mail"
 ```
 
 ### commit:
